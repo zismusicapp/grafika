@@ -1,3 +1,10 @@
-.gitignore
-bin
+*.iml
+*.properties
+build
+.idea
+.gradle
+.DS_Store
+*.apk
+.okbuck/
 gen
+.settings
