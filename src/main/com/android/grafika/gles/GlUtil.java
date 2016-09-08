@@ -188,7 +188,7 @@ public class GlUtil {
             GLES30.glGetIntegerv(GLES30.GL_MINOR_VERSION, values, 0);
             int minorVersion = values[0];
             if (GLES30.glGetError() == GLES30.GL_NO_ERROR) {
-                Log.i(TAG, "iversion: " + majorVersion + "." + minorVersion);
+                Log.i(TAG, "iversion: " + majorVersion + "" + minorVersion);
             }
         }
     }
