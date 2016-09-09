@@ -9,7 +9,7 @@ android {
     abortOnError false
   }
   defaultConfig {
-    minSdkVersion 9
+    minSdkVersion rootProject.ext.androidMinSdkVersion
     targetSdkVersion rootProject.ext.androidTargetSdkVersion
   }
   buildTypes {
@@ -19,7 +19,7 @@ android {
     }
   }
 
-  sourceSets.main.java.srcDirs =['/src/com/android']
+//  sourceSets.main.java.srcDirs =['/src/com/android']
 }
 
 dependencies {
